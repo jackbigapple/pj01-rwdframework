@@ -90,12 +90,23 @@ html {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid red;
+    padding: 10px;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: block;
+}
+
+/*image*/
+img{
+	max-width: 100%;
+    height: auto;
+
+}
+/*video*/
+video {
+    width: 100%;
+    height: auto;
 }
